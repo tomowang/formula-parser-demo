@@ -1,0 +1,77 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  chevrotain:
+    specifier: ^11.0.2
+    version: registry.npmmirror.com/chevrotain@11.0.2
+  lodash:
+    specifier: ^4.17.21
+    version: registry.npmmirror.com/lodash@4.17.21
+
+packages:
+
+  registry.npmmirror.com/@chevrotain/cst-dts-gen@11.0.2:
+    resolution: {integrity: sha512-thr6e9rb/v+7uzRDezhH2hjzrlZH6B7oauZka5Ks+8i/1uMaDsz4HtC+USO+wevf9L0qo9n1L8yjFEvpRPMcLw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chevrotain/cst-dts-gen/-/cst-dts-gen-11.0.2.tgz}
+    name: '@chevrotain/cst-dts-gen'
+    version: 11.0.2
+    dependencies:
+      '@chevrotain/gast': registry.npmmirror.com/@chevrotain/gast@11.0.2
+      '@chevrotain/types': registry.npmmirror.com/@chevrotain/types@11.0.2
+      lodash-es: registry.npmmirror.com/lodash-es@4.17.21
+    dev: false
+
+  registry.npmmirror.com/@chevrotain/gast@11.0.2:
+    resolution: {integrity: sha512-TuYPcVX0KLFpLJPUH1zl4I3KNtmulax62R98jLyJbjUFM+0hPQvGqEtbR3Z8J6kODTCRiySSw8mRY67VdbrJ0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chevrotain/gast/-/gast-11.0.2.tgz}
+    name: '@chevrotain/gast'
+    version: 11.0.2
+    dependencies:
+      '@chevrotain/types': registry.npmmirror.com/@chevrotain/types@11.0.2
+      lodash-es: registry.npmmirror.com/lodash-es@4.17.21
+    dev: false
+
+  registry.npmmirror.com/@chevrotain/regexp-to-ast@11.0.2:
+    resolution: {integrity: sha512-VHVOLvRTehE1QMVRlRdhZkz8m/mmLOguaulbpDt100PH0/5Igod91wlQ8OljYYBMr/PoUGhW2piJxQv/FCawfA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chevrotain/regexp-to-ast/-/regexp-to-ast-11.0.2.tgz}
+    name: '@chevrotain/regexp-to-ast'
+    version: 11.0.2
+    dev: false
+
+  registry.npmmirror.com/@chevrotain/types@11.0.2:
+    resolution: {integrity: sha512-b7zJ8avGLtf4abOf1Lb7GwisyElybATnulfOFBk14IDqwz3o9mjVsz8OlmEYBi/NQSHNbYXePPzHU15WWDs3LA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chevrotain/types/-/types-11.0.2.tgz}
+    name: '@chevrotain/types'
+    version: 11.0.2
+    dev: false
+
+  registry.npmmirror.com/@chevrotain/utils@11.0.2:
+    resolution: {integrity: sha512-xrpSVsW8NgJoP02UhumJgvJMc4aKvPZZmEl0DAGEfqawp98LQcwXfk1oCEwm1xIYNlotlTa/BxEBffrcFlgHaA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chevrotain/utils/-/utils-11.0.2.tgz}
+    name: '@chevrotain/utils'
+    version: 11.0.2
+    dev: false
+
+  registry.npmmirror.com/chevrotain@11.0.2:
+    resolution: {integrity: sha512-kQAQeRduf3SpiA8hFX5TtJc2fWKzg7R3oy9o03R6xgJRlCCD38y80jujcMVYyr+AzOsejyCdFq83vkZ91Yw4tA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chevrotain/-/chevrotain-11.0.2.tgz}
+    name: chevrotain
+    version: 11.0.2
+    dependencies:
+      '@chevrotain/cst-dts-gen': registry.npmmirror.com/@chevrotain/cst-dts-gen@11.0.2
+      '@chevrotain/gast': registry.npmmirror.com/@chevrotain/gast@11.0.2
+      '@chevrotain/regexp-to-ast': registry.npmmirror.com/@chevrotain/regexp-to-ast@11.0.2
+      '@chevrotain/types': registry.npmmirror.com/@chevrotain/types@11.0.2
+      '@chevrotain/utils': registry.npmmirror.com/@chevrotain/utils@11.0.2
+      lodash-es: registry.npmmirror.com/lodash-es@4.17.21
+    dev: false
+
+  registry.npmmirror.com/lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz}
+    name: lodash-es
+    version: 4.17.21
+    dev: false
+
+  registry.npmmirror.com/lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz}
+    name: lodash
+    version: 4.17.21
+    dev: false
