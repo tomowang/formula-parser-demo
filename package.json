@@ -1,7 +1,13 @@
 {
+  "scripts": {
+    "test": "vitest"
+  },
   "dependencies": {
     "chevrotain": "^11.0.2",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.1"
   },
   "type": "module"
 }

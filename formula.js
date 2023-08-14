@@ -262,11 +262,17 @@ class FormulaInterpreter extends BaseCstVisitor {
   formulaExpression(ctx) {
     let formula = ctx.formula[0];
     let reference = ctx.reference[0].image;
+    if (!this.data.hasOwnProperty(reference)) {
+      throw new Error(`Unknown reference: ${reference}`);
+    }
     let values = this.data[reference];
+    if (values.length === 0) {
+      throw new Error(`Empty reference: ${reference}`);
+    }
     if (tokenMatcher(formula, Sum)) {
       return _.sum(values);
     } else if (tokenMatcher(formula, Avg)) {
-      return _.sum(values) / length(values);
+      return _.sum(values) / values.length;
     } else if (tokenMatcher(formula, Max)) {
       return _.max(values);
     } else if (tokenMatcher(formula, Min)) {
